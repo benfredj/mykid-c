@@ -12,7 +12,7 @@ int main(){
 	if(heure<=23 && minute<=59 && seconde<=59){
 		if(seconde==0){//decrement secondes
 	        seconde = 59;
-	        if(minute==0){
+	        if(minute==0){//decrement minutes
 	           minute = 59;
 	           if(heure==0){
 	               heure = 23;
