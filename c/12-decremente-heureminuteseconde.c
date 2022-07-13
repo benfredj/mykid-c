@@ -10,7 +10,7 @@ int main(){
 	printf("seconde:");
 	scanf("%d",&seconde);
 	if(heure<=23 && minute<=59 && seconde<=59){
-		if(seconde==0){
+		if(seconde==0){//decrement secondes
 	        seconde = 59;
 	        if(minute==0){
 	           minute = 59;
